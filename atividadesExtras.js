@@ -52,19 +52,13 @@ Saída: 1, 3, 5, 8, 9
 
 
 */
-
-console.log("----------atividade5-----------");
-var numeros = [3, 5, 1, 8, 6, 2];
-console.table(numeros);
-
-numeros.sort();
-console.table(numeros);
-
-console.log("----------atividade4------------");
-function somar(val1, val2, val3){
-    return val1 + val2 + val3
-  }
-    console.log("10 + 15 + 20 =", somar(10, 15, 20));
+console.log("--------------atividade1---------")
+const imparpar = (num) =>{
+return num % 2 == 0? "O número é par!" : "O número e ímpar"
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
 console.log("------------atividade2----------");
 var tabuada = 3;
 console.log(tabuada,"x 1 =",tabuada*1);
@@ -79,14 +73,15 @@ console.log(tabuada,"x 9 =",tabuada*9);
 console.log(tabuada,"x 10 =",tabuada*10);
 console.log("----------atividade3----------");
 console.log("Fatorial de 5! =", 5 * 4 * 3 * 2 * 1);
-console.log("--------------atividade1---------")
+console.log("----------atividade4------------");
+function somar(val1, val2, val3){
+    return val1 + val2 + val3
+  }
+    console.log("10 + 15 + 20 =", somar(10, 15, 20));
+console.log("----------atividade5-----------");
+var numeros = [3, 5, 1, 8, 6, 2];
+console.table(numeros);
 
-
-
-
-
-
-
-
-
+numeros.sort();
+console.table(numeros);
 
